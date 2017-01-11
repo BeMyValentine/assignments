@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: orangered
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    
+}
+p {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    background-color: lightgray;
+    margin-top: 0px;
+    font-size: 24px; 
+}
+ .quote{
+    background-color: yellow
+}
+figcaption{
+    margin-top: 0px;
+    font-size: 18px;
+    
+    
+}
+
+
+    
+

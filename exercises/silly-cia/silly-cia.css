@@ -1,0 +1,25 @@
+h1 {
+    color: darkgreen;
+}
+
+.header {
+    font-family: Georgia; 
+    text-align: center;
+}
+.para {
+    height: 25px
+}
+
+a { 
+    text-decoration: none;
+}
+.words{
+    text-transform: uppercase;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    float:left; 
+    margin-right: 25px;
+}
