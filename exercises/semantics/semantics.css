@@ -1,0 +1,49 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    margin-top: 120px;
+    padding-left: 30px;
+    font-size: 1.5em;
+}
+img {
+    width: 80%;
+    height: 80%;
+}
+footer {
+    text-align: center;
+    color: green;
+    font-size: 150%;
+    background-color: black;
+    
+    
+}
+header {
+    color: blue;
+    font-size: 2em;
+    letter-spacing: 2em;
+    
+}
+a {
+    width: 150%;
+    height: 150%;
+    image-orientation: center;
+    
+}
+main{
+    color: red;
+    font-size: 1.5em;
+    
+}
+a:hover {
+    color: red;
+    
+}
+a:visited {
+    color: seagreen;
+    
+}
