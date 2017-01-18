@@ -1,0 +1,34 @@
+body {
+    background-color: yellow;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+li {
+    background-color: cadetblue;
+    color: firebrick;
+    display: inline;
+    position: sticky;
+    top: 0px;
+    }
+a:hover {
+    color: firebrick
+}
+}
+h1 {
+    margin-bottom: 10px;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+p {
+    font-size: 2em;
+    clear:right;
+}
+h3 {
+    margin-top: 0px;
+}
+img {
+
+    float: left;
+    height: 40%;
+    width: 40%
+}

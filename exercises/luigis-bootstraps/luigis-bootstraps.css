@@ -1,0 +1,46 @@
+@font-face {
+    font-family:"super mario 256";
+    src: url (SuperMario256.ttf)
+}
+.box {
+    font-family:"super mario 256";
+    height: 50px;
+    background-color: yellow;
+    color: red;
+    font-size: 2.8em;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+    
+}
+.bigBox {
+    height: 200px;
+    background-color: red;
+}
+.mediumBox {
+    font-family:"super mario 256";
+    font-size: 2.8em;
+    height: 70px;
+    background-color: white;
+    color: red;
+    padding-right: 10px;
+    
+}
+.smallBox {
+    height: 35px;
+    background-color: yellow;
+}
+.luigi {
+    color: red;
+    font-size: 1.5em;
+    font-family: "super mario 256";
+}
+.mushroom {
+    float: right;
+    width: 35px;
+    height: 35px;
+}
+.luigiPic {
+    height: 200px;
+    width: 200px;
+}
