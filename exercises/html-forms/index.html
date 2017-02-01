@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+    <form id="personal-form" name="form">
+        <label for="firstName">First Name:
+            <input type="text" name="first name" value="Sandy">
+        </label>
+        <label for="lastName">
+            <input type="text" name="last name" value="Claws">
+        </label>
+        <br>
+        <br>
+        <label for="age" name="age" value="Age">Age
+            <br>
+            <input type="number" name="age" value="315">
+        </label>
+        <br>
+        <br>
+        <label for="gender-male">
+            Male
+            <input type="radio" type="gender-male" name="gender">
+        </label>
+        <br>
+        <label for="gender-male" name="gender">
+            Female
+            <input type="radio" type="gender-female" name="gender">
+        </label>
+        <br>
+        <label for="gender-other"></label>
+        Other
+        <input type="radio" type="gender-other" name="gender" checked>
+        <br>
+        <br>
+        <select name="location" id="">
+            <option value="" name="location">Will you go to San Jose?</option>
+            <option value="" name="location" selected>I left my heart in San Francisco</option>
+            <option value="" name="location">Go get it for me...</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox" name="allergies" checked>You gonna die if you eat peanuts?
+        <br>
+        <input type="checkbox" name="allergies">You gonna die if you partake of lactose?
+        <br>
+        <input type="checkbox" name="allergies" checked>If you are dying and need medical attention, will you die worse if we give you penicilin?
+        <br>
+
+        <br>
+
+        <button type="button">SUBMIT</button>
+    </form>
+
+
+    <script src="forms.js"></script>
+</body>
+
+</html>

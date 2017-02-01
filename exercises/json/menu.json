@@ -1,0 +1,72 @@
+{
+    "Appetizers": [
+        {
+            "Name": "Light Salad",
+            "Description": "Rabbit Food fit for the fluffiest bunnies",
+            "Ingredients": ["Tomatoes", "Lettuce", "Radish"]
+        },
+        {
+            "Name": "Soup",
+            "Description": "Watered down broth, not meant for humans",
+            "ingredients": ["Water", "Broth", "Chunks of 'meat'"]
+        },
+        {
+            "Name": "Breadsticks",
+            "Description": "Bread at it's most basic form...dough",
+            "Ingredients": ["Flour", "Water", "Salt"]
+        }
+    ]
+} {
+    "Cold Sandwiches": [
+        {
+            "Name": "Turkey",
+            "Description": "Healthy, but inexplicably wet...",
+            "Ingredients": ["Turkey...we think", "and water"]
+        },
+        {
+            "Name": "French Dip",
+            "Description": "We know it's supposed to be hot...it isn't",
+            "Ingredients": ["French, Dip"]
+        }
+    ]
+} {
+    "Hot Sandwiches": [
+        {
+            "Name": "Roasted Chicken",
+            "Description": "It was left next to a nuclear powerplant",
+            "Ingredients": ["Nuclear waste", "Mostly Toxic"]
+        },
+        {
+            "Name": "Pastrami",
+            "Description": "This mystery meat was made by top scientists",
+            "Ingredients": ["Self-heating pastrami", "Unnaceptable levels of mayo"]
+        }
+
+    ]
+} {
+    "Desserts": [
+        {
+            "Name": "Frog legs",
+            "Description": "No they aren't covered in chocolate...you weirdo",
+            "Ingredients": ["Slime", "Toes"],
+        },
+        {
+            "Name": "Flies a la Mode",
+            "Description": "It used to be just the mode, but we left the lid off",
+            "Ingredients": ["Flies", "Ice Cream"]
+        }
+    ]
+} {
+    "Drinks": [
+        {
+            "Name": "Urine",
+            "Description": "We used to call it Mountain Dew",
+            "Ingredients": ["idk...urine?"]
+        },
+        {
+            "Name": "Warm Coke",
+            "Description": "Drink the urine...it's better",
+            "Ingredients": ["Sugar", "Spice", "Cocaine"]
+        }
+    ]
+}

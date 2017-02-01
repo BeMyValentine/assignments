@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+.box {
+    display: inline-block;
+    
+    height: 125px;
+}
+
+.pinkBox {
+    border: 5px solid white;
+    height: 125px;
+    background-color: #F5C6D6;
+}
+
+.salmonBox {
+    border: 5px solid white;
+    height: 125px;
+    background-color: #EE2E84;
+}
+
+.lightBlueBox {
+    border: 5px solid white;
+    height: 125px;
+    background-color: #85CFD8;
+}
+
+.greenBox {
+    border: 5px solid white;
+    background-color: #8DC63F;
+    height: 125px;
+}
+
+.orangeBox {
+    border: 5px solid white;
+    background-color: #E76E34;
+    height: 125px;
+}
+@media only screen and (max-width: 768px) {
+    [class*="box"] {
+        width: 100%;
+    }
+}
