@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="badgeApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Name Badge</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+</head>
+
+<body ng-controller="badgeController">
+    <div class="container">
+        <div class="row" id="userInput">
+            <div class="col-xs-6">
+                <input type="text" ng-model="newPerson.first" placeholder="First Name" class="col-xs-4">
+                <input type="text" ng-model="newPerson.last" placeholder="Last Name">
+            </div>
+        </div>
+
+        <div>
+            <input type="text" ng-model="newPerson.email" placeholder="Email">
+            <input type="text" ng-model="newPerson.birth" placeholder="Place of Birth">
+        </div>
+        <div>
+            <input type="text" ng-model="newPerson.phone" placeholder="Phone">
+            <input type="text" ng-model="newPerson.food" placeholder="Favorite Food">
+        </div>
+
+        <textarea name="comment" ng-model="newPerson.comment" placeholder="Tell us about yourself"></textarea>
+        <div>
+            <button ng-click="addPerson(newPerson)" type="button">Submit</button>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row" ng-repeat="newPerson in newPeople">
+            <div class="col-xs-12">
+                <span>Name: {{ newPerson.first }} {{ newPerson.last }} </span> 
+                <br>
+                <span>Phone: {{ newPerson.phone }} </span>
+                <br>
+                <span>Place of Birth: {{ newPerson.birth }} </span> 
+                <br>
+                <span> Favorite Food: {{ newPerson.food }} </span>
+                <br>
+                <span>Email: {{ newPerson.email }}</span>
+                <br>
+                <span>{{ newPerson.comment }}</span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+    
+    <script src="app.js"></script>
+</body>
+
+</html>

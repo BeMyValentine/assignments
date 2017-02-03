@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    
+}
+
+div.userInput{
+    margin-left: 100px;
+}
+
+
+textarea{
+    margin-top: 20px;
+}
+
+span{
+    margin-left: 50px;
+}

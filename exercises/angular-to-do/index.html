@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="listApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>List of things that we neeeed to do</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body ng-controller="listController" class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>TO-DO LIST</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <form class="userInput" class="form-inline">
+                <div>
+
+                    <input type="text" placeholder="DO SOMETHING" ng-model="toDo.title">
+                    <input type="number" placeholder="HOW MUCH????" ng-model="toDo.price">
+
+                    <button type="button" ng-click="editItem()" class="btn btn-lrg btn-info">EDIT LIST</button>
+                </div>
+                <div>
+                    <textarea name="comment" id="commentSpace" cols="50" rows="10" placeholder="DESCRIBE WHAT NEEDS TO BE DONE" ng-model="toDo.description"></textarea>
+                </div>
+                <input type="text" src="" alt="submit" placeholder="image URL" ng-model="toDo.imgUrl">
+                <img ng-src="{{toDo.imgUrl}}" alt="">
+            </form>
+            <button ng-click="newItem(toDo)" class="btn btn-default btn-success"> SUBMIT </button>
+        </div>
+
+
+
+
+        <div class="col-xs-6" ng-repeat="toDo in toDos">
+            <input type="checkbox"><span>Do this: {{  toDo.title  }} </span><button ng-click="deleteItem(toDo._id, index)" type="button" class="btn btn-sm btn-danger"> DELETE </button>
+            <br>
+            <span>Pay this: {{  toDo.price  }} </span>
+            <br>
+            <span> I'll sum up: {{  toDo.description  }} </span>
+            <br>
+            <img ng-src="{{toDo.imgUrl}}" alt="">
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

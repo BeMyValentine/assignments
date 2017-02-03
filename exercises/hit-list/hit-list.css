@@ -1,0 +1,15 @@
+.bg-img {
+    height: 216px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 100px;
+}
+
+center {
+    margin: 20px;
+    background-color: burlywood;
+}
+
+body {
+    background-color: cadetblue;
+}
