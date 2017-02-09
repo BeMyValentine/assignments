@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="lolApp">
+<html lang="en" ng-app="weatherApp">
 
 <head>
     <meta charset="UTF-8">
-    <title>Freelo Support</title>
+    <title>Weather</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <link rel="stylesheet" href="lol.css">
+    <link rel="stylesheet" href="weather.css">
 
 </head>
 
-<body ng-controller="lolController">
-    
-    <h1></h1>
+<body>
 
-    <div ng-view>
-       
-       
-       
-        
-        
-    </div>
+    <h1>The weather is always running...catch up</h1>
+
+    <ul>
+
+        <li> <a href="#!/home"> Home </a> </li>
+        <li><a href="#!/weekly"> 7-Day Forecast </a></li>
+        <li></li>
+    </ul>
+
+    <ng-view>
     
+    </ng-view>
+
+
+
     <footer>
-      
+        <a href="https://darksky.net/poweredby">Powered by Dark Sky</a>
     </footer>
+
 
     <script src="app.js"></script>
     <script src="services/HTTPService.js"></script>
+    <script src="content/controllers/weather-controller.js"></script>
+    <script src="content/controllers/main-controller.js"></script>
+
+
 </body>
 
 </html>
