@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+
+#redButton{
+    float: left;
+}
+
+
+#blueButton{
+    float: right;
+}
+
+
+
+#blueNumber{
+    
+    float: right;
+}
+
+#redNumber{
+    
+    float: left;
+}
+
+span{
+    margin-top: 50px;
+    font-size: 3em;
+    
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="clickerApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mighty Clicker</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mighty.css">
+
+</head>
+
+<body ng-controller="clickController" class="container">
+   
+   <h1>CHOOSE YOUR DESTINY</h1>
+    <div class="row">
+        <div class="col-xs-2-offset-2">    
+            <button type="button" class="btn btn-danger btn-lg" id="redButton" ng-click="addRed()">Red Button</button>
+            <button type="button" class="btn btn-primary btn-lg" id="blueButton" ng-click="addBlue()">Blue Button</button>
+        </div>
+    </div>
+    <div class="row">    
+        <div class="col-xs-2-offset-2">
+            <span ng-model="red" id="redNumber">Score: {{ redCount }}</span>    <span ng-model="blue" id="blueNumber">Score: {{ blueCount }}</span>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+    <script src="redService.js"></script>
+    <script src="blueService.js"></script>
+</body>
+
+</html>

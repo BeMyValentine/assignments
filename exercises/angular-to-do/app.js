@@ -1,7 +1,6 @@
 var app = angular.module("listApp", []);
 app.controller("listController", ["$scope", "$http", function ($scope, $http) {
 
-
     var url = "http://api.vschool.io/gabehare/todo"
     $http.get(url).then(function (response) {
         $scope.toDos = response.data
@@ -17,10 +16,10 @@ app.controller("listController", ["$scope", "$http", function ($scope, $http) {
             $scope.toDos
         })
         $scope.itemInput.push(item)
-        
-        
-        
-        $scope.deleteItem = function() {
+
+
+
+        $scope.deleteItem = function () {
             $http.delete(url, item)
         }
 

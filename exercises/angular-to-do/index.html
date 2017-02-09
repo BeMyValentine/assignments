@@ -39,11 +39,11 @@
 
 
         <div class="col-xs-6" ng-repeat="toDo in toDos">
-            <input type="checkbox"><span>Do this: {{  toDo.title  }} </span><button ng-click="deleteItem(toDo._id, index)" type="button" class="btn btn-sm btn-danger"> DELETE </button>
+            <input type="checkbox"><span>{{  toDo.title  }} </span><button ng-click="deleteItem(toDo._id, index)" type="button" class="btn btn-sm btn-danger"> DELETE </button>
             <br>
-            <span>Pay this: {{  toDo.price  }} </span>
+            <span>{{  toDo.price  }} </span>
             <br>
-            <span> I'll sum up: {{  toDo.description  }} </span>
+            <span> {{  toDo.description  }} </span>
             <br>
             <img ng-src="{{toDo.imgUrl}}" alt="">
         </div>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="uglyApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ugly Things</title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ugly.css">
+</head>
+
+<body ng-controller="uglyController">
+
+    <section class="row">
+        <div class="col-xs-8 col-xs-offset-2">
+            <h1>Ugly Crap</h1>
+            <input type="text" ng-model="ugly.title" placeholder="Title">
+            <input ng-model="ugly.imgUrl" alt="" placeholder="Image URL">
+            <input type="text" placeholder="Description" ng-model="ugly.description">
+            <div>
+                <button type="button" class="btn btn-md btn-success" ng-click="addUgly()">Submit</button>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="row">
+            <div class="col-xs-4" ng-repeat="pic in uglyList">
+                <div class="row">
+                    <span class="name">{{  pic.title }}</span>
+                </div>
+                <div class="row">
+                    <img ng-src="{{ pic.imgUrl }}" alt="" class="image">
+                </div>
+                <div class="row">
+                    <span class="description">{{  pic.description }}</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

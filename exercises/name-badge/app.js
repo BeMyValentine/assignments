@@ -1,13 +1,13 @@
-var app = angular.module("badgeApp", [])
+var app = angular.module("badgeApp", []);
 
-app.controller("badgeController", function ($scope) {
+app.controller("badgeController", ["$scope", function ($scope) {
     
-    $scope.newPeople = [] //this empties the input boxes
+     //this empties the input boxes
 
-    $scope.addPerson = function (item) {
-        $scope.newPeople.push(item); //the properties were stated in the ng-model of the html
-        if (userInput === "")
+    $scope.addPerson = function () {
+        $scope.Person = $scope.newPerson;
+        $scope.newPerson = {};
         
 
     }
-});
+}]);
