@@ -1,11 +1,23 @@
 h1{
     text-align: center;
+    
 }
 
-
+h3{
+    text-align: center;
+}
 
 
 footer{
     margin: 100px;
     text-align: center;
+}
+
+body{
+    background: url("photos/dv9zfzlxaq4-tobias-cornille.jpg")no-repeat center center fixed;
+    background-size: cover;
+}
+
+*{
+    color: white !important;
 }

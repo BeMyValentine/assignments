@@ -1,24 +1,21 @@
 angular.module("weatherApp")
-    .service("HTTPService", ["$http", "$sce", function ($http, $sce) {
-        
-        this.info = [];
+    .service("HTTPService", ["$http", "$sce", "geolocation", function ($http, $sce, geolocation) {
 
-        var url = "https://api.darksky.net/forecast/40060965fc9611af86b2b08dde10fcd2/37.8267,-122.4233"
+
+        var url = "https://api.darksky.net/forecast/40060965fc9611af86b2b08dde10fcd2/";
+
 
 
         this.getRequest = function () {
-            
 
-            $http.jsonp($sce.trustAsResourceUrl(url)).then(function (response) {
+            return geolocation.getLocation().then(function (data) {
+                var coords = data.coords.latitude + "," + data.coords.longitude;
+                var totalUrl = url + coords;
 
-                    this.info.push(response.data);
+                return $http.jsonp($sce.trustAsResourceUrl(totalUrl));
+                
 
-                    console.log(response.data);
-                }
 
-            )
+            });
         }
-
-
-
-    }])
+    }]);

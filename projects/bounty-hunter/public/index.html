@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bountyApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bounties!</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="bounty.css">
+</head>
+
+<body>
+    <h1>Kill these dicks!</h1>
+    <div class="container" id="form">
+        <form action="">
+            <div class="row">
+                <input type="text" ng-model="bounties.firstname">
+            </div>
+            <div class="row">
+                <input type="text" ng-model="bounties.lastname">
+            </div>
+            <div class="row">
+                <input type="number" ng-model="bounties.bountyAmount">
+            </div>
+            <div class="row"> <span>Deceased</span>
+                <input type="checkbox" ng-model="bounties.living"> </div>
+            <div class="row">
+                <span>Sith    </span>
+                <input type="radio" name="type">
+                <span>Jedi    </span>
+                <input type="radio" name="type">
+            </div>
+            <hr>
+            <button class="btn btn-primary btn-md" ng-click="postBounty(bounty)">Post Bounty</button>
+        </form>
+
+    </div>
+
+    <div>
+       <div class="row"></div>
+        <div class="col-xs-3" ng-repeat="bounty in bounties">
+        <span>Name: {{  bounty.firstName }}    {{  bounty.lastName  }}</span>
+        <br>
+        <span>Amount: {{  bounty.bountyAmount }}</span>
+        <br>
+        <span>Living: {{  bounty.living }}</span>
+        <br>
+        <span>Type: {{ bounty.type }}</span>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

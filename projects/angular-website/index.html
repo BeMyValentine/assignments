@@ -4,8 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Weather</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
     <link rel="stylesheet" href="weather.css">
 
@@ -19,11 +17,11 @@
 
         <li> <a href="#!/home"> Home </a> </li>
         <li><a href="#!/weekly"> 7-Day Forecast </a></li>
-        <li></li>
+        <li><a href="#!/hourly"> Hourly Forecast </a></li>
     </ul>
 
     <ng-view>
-    
+
     </ng-view>
 
 
@@ -31,12 +29,17 @@
     <footer>
         <a href="https://darksky.net/poweredby">Powered by Dark Sky</a>
     </footer>
+    
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.js"></script>
+    <script src="bower_components/angularjs-geolocation/dist/angularjs-geolocation.min.js"></script>
     <script src="app.js"></script>
+    <script src="services/location.js"></script>
     <script src="services/HTTPService.js"></script>
     <script src="content/controllers/weather-controller.js"></script>
     <script src="content/controllers/main-controller.js"></script>
+
 
 
 </body>
