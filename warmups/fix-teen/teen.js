@@ -1,19 +1,16 @@
 function fixTeen(n) { 
     if (n >= 13 && n <= 19) { 
         if (n === 15 || n === 16) { 
-            return n;
+            console.log (n);
         } else {
-            return 0;
+            console.log(0);
         }
-    } else { 
-        return n; 
+    } else {
+        console.log(n);
     }
 }
 
-function noTeenSum(a, b, c) { 
-    var num = 0; 
-    num += fixTeen(a);
-    num += fixTeen(b);
-    num += fixTeen(c);
-    console.log(num);
-}
+fixTeen(14);
+fixTeen(15);
+fixTeen(20);
+

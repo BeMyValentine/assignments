@@ -1,10 +1,3 @@
-//function
-//empty array for unique numbers to go
-//for loop that goes through each index of each array
-//if the index of [i] < -1 push the [i] into the unique array
-//
-
-
 
 
 Array.prototype.unique = function() {
@@ -16,7 +9,7 @@ Array.prototype.unique = function() {
         }
     }
     return a;
-}
+};
 
 
 var array1 = [1,2,3,4,5,6];

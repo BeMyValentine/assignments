@@ -1,6 +1,6 @@
 function noDupes(word) {
-    var singles= ""
-    var doubles= ""
+    var singles= "";
+    var doubles= "";
     for (var i = 0; i < word.length; i++) {
         if(singles.indexOf(word[i]) !==-1) {
             doubles += word[i];
@@ -9,7 +9,7 @@ function noDupes(word) {
             
         }
     }
-    console.log ("No duplicates: " + singles)
-    console.log ("Extras: " + doubles)
+    console.log ("No duplicates: " + singles);
+    console.log ("Extras: " + doubles);
 }
 noDupes("bookkeeper larry");

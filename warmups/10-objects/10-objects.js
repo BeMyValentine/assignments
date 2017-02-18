@@ -41,7 +41,7 @@ var shoes ={
     type: "skater",
     brand: "Reebok",
     color: "Gray/Black",
-    tied: false,
+    tied: false
 }
 var headphones={
     type: "studio",

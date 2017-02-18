@@ -1,22 +1,5 @@
 
 
-//dan solution
-function camelCase(input){
-    for(x=0; x<input.length; x++){
-        if(input[x] === " " || input[x] === "/" || input[x] === "_" || input[x] === "-"){
-            var y = input.substring(0,x);
-            var z = input.substring(x+1,input.length);
-            var upper = z.substring(0,1).toUpperCase() + z.substring(1);
-            input = y + upper;
-        }
-    }
-    console.log(input);
-}
-
-camelCase("daniel/bolognino is_cool");
-
-//alex solution
-
  var camelCased = ""
 
 function returnCamelCase (str) {

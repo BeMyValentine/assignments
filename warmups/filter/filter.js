@@ -19,7 +19,7 @@ var ourArray = ["pan", "can", "apple", "sauce"];
 
 var ourNewArray = ourArray.myFilter(function(item){
     return item.length < 4;
-})
+});
 
 console.log(ourNewArray);
 

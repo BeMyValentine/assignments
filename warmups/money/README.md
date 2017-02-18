@@ -1,0 +1,1 @@
+This warmup was hard to pull off without the use of built-in functions. We were supposed to convert any amount of digits into a USD currency format. I had to use the built-in functions to accomplish this.

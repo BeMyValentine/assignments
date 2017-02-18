@@ -10,4 +10,4 @@ function money (input){
     return (input/100).toLocaleString('en-US', {style: 'currency', currency: "USD"})
 }
 
-console.log(money(123457890))
+console.log(money(123457890));

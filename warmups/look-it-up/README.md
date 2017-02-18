@@ -1,0 +1,1 @@
+This warmup had us create a dictionary that can be changed by the user using Readline-Sync. The user inputs a word, and if the word is already in the dictionary it will pull up the word, but if the word has not been put into the dictionary yet, it will ask the user for a definition of the word, and prompt them to type what the word means.

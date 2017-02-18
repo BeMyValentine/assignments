@@ -1,0 +1,1 @@
+This was a particularly mind bending warmup that taught us the proper use of a nested for loop. In this warmup we had to take an array, and loop through the array, but at every single index of the array we capitalized, and looped through the entire alphabet. 

@@ -36,9 +36,10 @@ var player = {
     },
     print: function(){
         console.log(`Name: ${this.name}\nStatus: ${this.status}\nTotal Coins:${this.totalCoins} ${this.totalCoins}`);
-    },
+    }
 
 };
+
 player.setName("Mario");
 player.addcoin();
 player.addcoin();

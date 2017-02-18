@@ -8,13 +8,15 @@
 function repeat(string) {
     var ignore = "";
     var empty = [];
-    for (var i = 0; i < string[i].length; i++);
-    if (string[i] > 0) {
-        ignore += string[i];
-    } else {
-        string[i].push(empty);
+    for (var i = 0; i < string[i].length; i++) {
+        if (string[i] > 0) {
+            string[i] += ignore;
+        } else {
+            string[i].push(empty);
+        }
     }
     return (empty[0]);
+    console.log(empty[0]);
 }
 
-console.log(repeat(gggggggggxkjlfvskjfg));
+repeat(gggggggggxkjlfvskjfg)

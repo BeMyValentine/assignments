@@ -1,0 +1,1 @@
+The enemy generator was a very useful warmup. It taught me about number generators, and assisted with my rpg project that I created and ran completely in the terminal. In order to complete this project, we had to make a random number generator that generated 100 enemies at random using a constructor function.  

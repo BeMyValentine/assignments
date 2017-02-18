@@ -1,4 +1,4 @@
-angular.module("weatherApp", ["ngRoute", "geolocation"])
+angular.module("weatherApp", ["ngRoute", "geolocation", "angular-skycons"])
     .config(function ($routeProvider) {
 
 

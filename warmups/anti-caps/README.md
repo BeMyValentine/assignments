@@ -1,0 +1,1 @@
+Anti-caps was a fun warm-up that consisted of string manipulation. We took words with random capital letters and reversed the letters that were capitalized. This means that if the letter was lower case, we changed it to upper case, and vise versa.

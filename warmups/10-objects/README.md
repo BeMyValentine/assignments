@@ -1,0 +1,1 @@
+10 Objects was a very simple warmup that introduced the class to the idea of objects and how they work. We basically looked around the room and selected ten physical objects to turn into objects on the computer with different properties and key values. 

@@ -1,0 +1,1 @@
+This warmup takes two separate arrays, and converts them into a single array. The challenge was making the arrays into a single array that didn't repeat any of the numbers. If the array had 2 of the same number, or the number was repeated in either array, you had to make it so there was only one of that number in the final array. 
