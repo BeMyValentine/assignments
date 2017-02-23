@@ -6,6 +6,7 @@ angular.module("bountyApp", [])
         $scope.postBounty = function (target) {
 
             bountyService.addBounty(target).then(function (response) {
+                response.data.isLiving = ;
                 $scope.bounties.push(response.data)
             })
         };

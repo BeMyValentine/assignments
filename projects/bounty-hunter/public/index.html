@@ -14,10 +14,10 @@
     <div class="container" id="form">
         <form>
             <div class="row">
-                <input type="text" ng-model="newTarget.firstname" placeholder="First Name">
+                <input type="text" ng-model="newTarget.firstName" placeholder="First Name">
             </div>
             <div class="row">
-                <input type="text" ng-model="newTarget.lastname" placeholder="Last Name">
+                <input type="text" ng-model="newTarget.lastName" placeholder="Last Name">
             </div>
             <div class="row">
                 <input type="number" ng-model="newTarget.price" placeholder="Amount">
@@ -26,9 +26,9 @@
                 <input type="checkbox" ng-model="newTarget.isLiving"> </div>
             <div class="row">
                 <span>Sith    </span>
-                <input type="radio" name="type">
+                <input type="radio" name="type" value ="Sith" ng-model="newTarget.team">
                 <span>Jedi    </span>
-                <input type="radio" name="type">
+                <input type="radio" name="type" value ="Jedi" ng-model="newTarget.team">
             </div>
             <hr>
             <button class="btn btn-primary btn-md" ng-click="postBounty(newTarget)">Post Bounty</button>

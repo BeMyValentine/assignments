@@ -18,10 +18,7 @@ var targetSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    team: {
-        type: Boolean,
-        required: true
-    }
+    team: String
 });
 
 
