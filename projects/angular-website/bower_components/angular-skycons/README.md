@@ -15,19 +15,19 @@ Include the following files before the main app file:
 ~~~html
 <script src="/bower_components/skycons/skycons.js"></script>
 <script src="/bower_components/angular-skycons/angular-skycons.js"></script>
-<script src="/js/app.js"></script>
+<script src="/js/bounty-service.js"></script>
 ~~~
 
 Or use the minified version. As a convenience, this version has the `skycons.js` dependency included so you only need to include one file.
 
 ~~~html
 <script src="/bower_components/angular-skycons/angular-skycons.min.js"></script>
-<script src="/js/app.js"></script>
+<script src="/js/bounty-service.js"></script>
 ~~~
 
 
 ### Step 2
-Add `angular-skycons` to the app requirements (`/js/app.js`).
+Add `angular-skycons` to the app requirements (`/js/bounty-service.js`).
 ~~~javascript
 var app = angular.module('myApp', [
     'myApp.controllers',
