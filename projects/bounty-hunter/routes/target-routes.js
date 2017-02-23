@@ -3,7 +3,6 @@ var Target = require("../models/targets");
 var targetRoutes = express.Router();
 
 
-
 targetRoutes.get("/", function (req, res) {
     var query = {};
     if (req.query.firstName) query.firstName = req.query.firstName;
@@ -36,18 +35,18 @@ targetRoutes.post("/", function (req, res) {
 
 
 targetRoutes.put("/:targetId", function (req, res) {
-    Target.findOneAndUpdate(req.params.id, req.body, {new: true}, function (err, updatedBounty) {
+    Target.findOneAndUpdateById(req.params.targetId, req.body, {new: true}, function (err, updatedBounty) {
         if (err) return res.status(500).send(err);
         res.send(updatedBounty);
     });
+});
 
 
-    targetRoutes.delete("/:targetId", function (req, res) {
-        Target.findOneAndRemove({_id: req.params.id}.then(function (err, target) {
-            if (err)return res.status(500).send(err);
-            res.send({message: "Successfully eliminated target", success: true});
-        }))
-    });
+targetRoutes.delete("/:targetId", function (req, res) {
+    Target.findOneAndRemove({_id: req.params.targetId}, function (err, target) {
+        if (err)return res.status(500).send(err);
+        res.send({message: "Successfully eliminated target", success: true});
+    })
 });
 
 

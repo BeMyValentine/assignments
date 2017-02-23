@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" ng-app="voteApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vote for Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.css">
+    <link rel="stylesheet" href="vote.css">
+</head>
+<body ng-controller="mainController">
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo right">'MURICA</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="sass.html">Home</a></li>
+            <li><a href="badges.html">Trending</a></li>
+            <li><a href="collapsible.html">Need help? Contract our Aids</a></li>
+        </ul>
+    </div>
+</nav>
+
+<h1>YOU choose what issues WE vote on</h1>
+<div class="container">
+    <div class="row" ng-repeat="">
+        <div class="col s6 offset s3">
+            <div>
+                <input type="text" ng-model="newOption.title">
+            </div>
+            <div>
+                <textarea name="optionInput" id="description" cols="30" rows="10" ng-model="newOption.description"
+                          placeholder="Describe what we will be voting on"></textarea>
+            </div>
+            <div>
+                Upvote/Downvote goes here
+            </div>
+            <div>
+                Number of votes goes here
+            </div>
+            <div>
+            <button class="waves-effect waves-light btn btn-lg red" ng-click="postOption(newOption)">Post New Option</button>
+            </div>
+            <div class="divider"></div>
+            <div>
+            <textarea name="userComment" id="comment" cols="30" rows="10" placeholder="User Comments"></textarea>
+            </div>
+            <div>
+            <button class="waves-effect waves-light btn btn-lg btn-success">Post Comment</button>
+            </div>
+            <div class="divider"></div>
+        </div>
+    </div>
+</div>
+<footer>
+    MINE...ALL MINE
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.js"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
+<script src="./app.js"></script>
+<script src="./controllers/main-controller.js"></script>
+<script src="./services/main-service.js"></script>
+</body>
+</html>

@@ -4,9 +4,30 @@ h1 {
 
 #form {
     padding: 20px;
-    background-color: blanchedalmond;
+    background-color: steelblue;
 }
 
+.capital {
+    text-transform: capitalize;
+
+}
+
+h1 {
+    color: white;
+    background-color: black;
+}
+
+#bounty{
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+#delete{
+    margin: 10px;
+}
+.options{
+    color: ghostwhite;
+}
 
 
 

@@ -10,13 +10,13 @@ var targetSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    isLiving: {
-        type: Boolean,
-        required: true
-    },
     price: {
         type: Number,
         required: true
+    },
+    isLiving: {
+        type: Boolean,
+        required: true,
     },
     team: String
 });

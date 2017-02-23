@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    background-color: red;
+    color: blue;
+    padding: 30px;
+    margin-top: 0px;
+    opacity: 0.7;
+}
+
+footer{
+    text-align: center;
+
+}
+button{
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+nav {
+    background-color: blue;
+    opacity: 0.6;
+}
+
+
+
+
+
+
