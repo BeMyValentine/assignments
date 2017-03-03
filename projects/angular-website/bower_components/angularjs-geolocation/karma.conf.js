@@ -19,7 +19,7 @@ module.exports = function ( config ) {
 		// possible values: 'dots', 'progress', 'junit'
 		reporters : ['progress'],
 
-		// web server port
+		// web server-memory port
 		port : 9876,
 
 		// cli runner port

@@ -3,11 +3,11 @@ angular.module("ponyApp", ["ngRoute"])
 
         $routeProvider
             .when("/home", {
-                templateUrl: "content/home.html",
+                templateUrl: "content/pages/home.html",
                 controller: "mainController"
             })
             .when("/ponies", {
-                templateUrl: "content/pony-page/pony.html",
+                templateUrl: "content/pages/pony.html",
                 controller: "ponyController"
             })
             .otherwise({

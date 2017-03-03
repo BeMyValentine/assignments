@@ -1,0 +1,10 @@
+<h3 ng-controller="hourlyController">Hourly Weather</h3>
+
+
+<div ng-repeat="hours in day">
+
+    {{ hours.icon }}
+    {{ hours.temperature | number: 0 }}
+    {{ hours.precipProbability | number: 0 }}
+
+</div>

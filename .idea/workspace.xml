@@ -2,23 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70e3c5c9-d7b9-4ea5-8bc8-6531a9f61fe6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/vote/public/photos/nasa-43979.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/vote/models/vote-models.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/vote/public/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/vote/public/content/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/vote/public/controllers/main-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/vote/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/vote/public/services/main-service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/vote/public/vote.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/vote/routes/vote-routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/vote/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/vote/public/services/addition-service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/angular-website/content/hourly.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/models/recipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/models/userModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/public/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/public/content/home/home.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/public/content/home/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/public/content/login/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/public/content/login/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/public/controllers/main-controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/public/controllers/user-controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/public/services/http-service" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/public/services/user-service" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/routes/recipe-routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/routes/user-routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/first-app/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/warmups/add-up/add.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/warmups/server-memory/models/cars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/warmups/server-memory/models/person.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/warmups/server-memory/routes/cars-routes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/warmups/server-memory/routes/persons-routes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/warmups/server-memory/server.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercises/vote/public/services/main-service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/bounty-hunter/models/targets.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/brony/content/home.html" afterPath="$PROJECT_DIR$/projects/brony/content/pages/home.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/brony/content/pony-page/pony.html" afterPath="$PROJECT_DIR$/projects/brony/content/pages/pony.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/brony/content/pony-page/pony.js" afterPath="$PROJECT_DIR$/projects/brony/content/controllers/pony-controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/brony/main.js" afterPath="$PROJECT_DIR$/projects/brony/content/controllers/home-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/assignments.iml" afterPath="$PROJECT_DIR$/.idea/assignments.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/bounty-hunter/models/targets.js" afterPath="$PROJECT_DIR$/projects/bounty-hunter/models/targets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/bounty-hunter/public/bounty.css" afterPath="$PROJECT_DIR$/projects/bounty-hunter/public/bounty.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/bounty-hunter/public/controller/bounty-controller.js" afterPath="$PROJECT_DIR$/projects/bounty-hunter/public/controller/bounty-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/bounty-hunter/public/index.html" afterPath="$PROJECT_DIR$/projects/bounty-hunter/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/bounty-hunter/public/services/bounty-service.js" afterPath="$PROJECT_DIR$/projects/bounty-hunter/public/services/bounty-service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/bounty-hunter/routes/target-routes.js" afterPath="$PROJECT_DIR$/projects/bounty-hunter/routes/target-routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/vote/models/vote-models.js" afterPath="$PROJECT_DIR$/exercises/vote/models/vote-models.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/vote/public/app.js" afterPath="$PROJECT_DIR$/exercises/vote/public/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/vote/public/controllers/main-controller.js" afterPath="$PROJECT_DIR$/exercises/vote/public/controllers/main-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/vote/public/index.html" afterPath="$PROJECT_DIR$/exercises/vote/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/vote/public/vote.css" afterPath="$PROJECT_DIR$/exercises/vote/public/vote.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/vote/routes/vote-routes.js" afterPath="$PROJECT_DIR$/exercises/vote/routes/vote-routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/vote/server.js" afterPath="$PROJECT_DIR$/exercises/vote/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/angular-website/app.js" afterPath="$PROJECT_DIR$/projects/angular-website/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/angular-website/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/projects/angular-website/bower_components/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/angular-website/bower_components/angularjs-geolocation/karma.conf.js" afterPath="$PROJECT_DIR$/projects/angular-website/bower_components/angularjs-geolocation/karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/angular-website/content/7-day.html" afterPath="$PROJECT_DIR$/projects/angular-website/content/7-day.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/angular-website/content/controllers/hourly-controller.js" afterPath="$PROJECT_DIR$/projects/angular-website/content/controllers/hourly-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/angular-website/content/controllers/main-controller.js" afterPath="$PROJECT_DIR$/projects/angular-website/content/controllers/main-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/angular-website/content/controllers/week-controller.js" afterPath="$PROJECT_DIR$/projects/angular-website/content/controllers/week-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/angular-website/content/current.html" afterPath="$PROJECT_DIR$/projects/angular-website/content/current.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/angular-website/services/HTTPService.js" afterPath="$PROJECT_DIR$/projects/angular-website/services/HTTPService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/projects/bower_components/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/bower_components/angularjs-geolocation/karma.conf.js" afterPath="$PROJECT_DIR$/projects/bower_components/angularjs-geolocation/karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/brony/app.js" afterPath="$PROJECT_DIR$/projects/brony/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/brony/content/services/pony-service.js" afterPath="$PROJECT_DIR$/projects/brony/content/services/pony-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/brony/index.html" afterPath="$PROJECT_DIR$/projects/brony/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,81 +73,71 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vote.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercises/vote/public/vote.css">
+      <file leaf-file-name="7-day.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/angular-website/content/7-day.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="71" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="current.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/angular-website/content/current.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/angular-website/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/vote/public/index.html">
+        <entry file="file://$PROJECT_DIR$/projects/angular-website/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="-42">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/vote/public/controllers/main-controller.js">
+      <file leaf-file-name="hourly.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/angular-website/content/hourly.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hourly-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/angular-website/content/controllers/hourly-controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/vote/public/services/main-service.js">
+      <file leaf-file-name="week-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/angular-website/content/controllers/week-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bounty-controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/public/controller/bounty-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vote-models.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/vote/models/vote-models.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vote-routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/vote/routes/vote-routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/vote/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -118,9 +145,19 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>target</find>
+      <find>option</find>
+      <find>var</find>
+      <find>mongoose.expo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,57 +166,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/warmups/10-objects/10-objects.js" />
-        <option value="$PROJECT_DIR$/warmups/combining-objects/combine.js" />
-        <option value="$PROJECT_DIR$/warmups/look-it-up/dictionary.js" />
-        <option value="$PROJECT_DIR$/warmups/money/money.js" />
-        <option value="$PROJECT_DIR$/warmups/no-duplicates/no-duplicates.js" />
-        <option value="$PROJECT_DIR$/warmups/repeat/repeat.js" />
-        <option value="$PROJECT_DIR$/warmups/adventure-time/app.js" />
-        <option value="$PROJECT_DIR$/warmups/camel-case/camel.js" />
-        <option value="$PROJECT_DIR$/warmups/filter/filter.js" />
-        <option value="$PROJECT_DIR$/warmups/princess/princess.js" />
-        <option value="$PROJECT_DIR$/warmups/fix-teen/teen.js" />
-        <option value="$PROJECT_DIR$/warmups/forception/forception.js" />
-        <option value="$PROJECT_DIR$/warmups/new-array/new-array.js" />
-        <option value="$PROJECT_DIR$/warmups/palindrome/palindrome.js" />
-        <option value="$PROJECT_DIR$/warmups/trees/trees.js" />
-        <option value="$PROJECT_DIR$/projects/brony/main/index.html" />
-        <option value="$PROJECT_DIR$/projects/brony/main/app.js" />
-        <option value="$PROJECT_DIR$/projects/brony/content/pony.html" />
-        <option value="$PROJECT_DIR$/projects/brony/content/pony.js" />
+        <option value="$PROJECT_DIR$/warmups/server/routes/cars-routes" />
+        <option value="$PROJECT_DIR$/warmups/server/routes/persons-routes" />
+        <option value="$PROJECT_DIR$/warmups/server-memory/models/person.js" />
+        <option value="$PROJECT_DIR$/warmups/server-memory/routes/cars-routes" />
+        <option value="$PROJECT_DIR$/warmups/server-memory/models/cars.js" />
+        <option value="$PROJECT_DIR$/warmups/server-memory/routes/persons-routes" />
+        <option value="$PROJECT_DIR$/exercises/vote/routes/vote-routes.js" />
+        <option value="$PROJECT_DIR$/exercises/vote/public/app.js" />
+        <option value="$PROJECT_DIR$/exercises/vote/public/controllers/main-controller.js" />
+        <option value="$PROJECT_DIR$/exercises/vote/public/index.html" />
+        <option value="$PROJECT_DIR$/projects/brony/content/controllers/home-controller.js" />
+        <option value="$PROJECT_DIR$/projects/brony/content/pages/home.html" />
         <option value="$PROJECT_DIR$/projects/brony/app.js" />
         <option value="$PROJECT_DIR$/projects/brony/index.html" />
-        <option value="$PROJECT_DIR$/projects/brony/main.js" />
-        <option value="$PROJECT_DIR$/projects/brony/content/home.html" />
-        <option value="$PROJECT_DIR$/projects/brony/brony.css" />
-        <option value="$PROJECT_DIR$/projects/brony/content/pony-page/pony.html" />
-        <option value="$PROJECT_DIR$/projects/brony/content/pony-page/pony.js" />
+        <option value="$PROJECT_DIR$/projects/brony/content/controllers/pony-controller.js" />
+        <option value="$PROJECT_DIR$/projects/brony/content/pages/pony.html" />
         <option value="$PROJECT_DIR$/projects/brony/content/services/pony-service.js" />
-        <option value="$PROJECT_DIR$/warmups/stocks/stocks.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/public/bounties.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/models/bounties.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/public/controller.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/public/app.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/services/bounty-service.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/index.html" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/controller/bounty-controller.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/server.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/models/targets.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/public/services/bounty-service.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/public/controller/bounty-controller.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/routes/target-routes.js" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/public/bounty.css" />
-        <option value="$PROJECT_DIR$/projects/bounty-hunter/public/index.html" />
-        <option value="$PROJECT_DIR$/exercises/vote/public/index.html" />
-        <option value="$PROJECT_DIR$/exercises/vote/public/services/main-service.js" />
-        <option value="$PROJECT_DIR$/exercises/vote/public/controllers/main-controller.js" />
-        <option value="$PROJECT_DIR$/exercises/vote/public/vote.css" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/directives/navbar.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/routes/recipe-routes.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/routes/beverage-routes.js" />
+        <option value="$PROJECT_DIR$/warmups/server-memory/server.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/models/recipe.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/routes/beverage-routes.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/controllers/main-controller.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/directives/navbar.html" />
+        <option value="$PROJECT_DIR$/projects/first-app/services/http-service" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/services/http-service" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/controllers/main-controller.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/content/home.html" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/content/home.css" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/app.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/content/login.html" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/content/login/login.css" />
+        <option value="$PROJECT_DIR$/projects/first-app/models/beverage.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/controllers/user.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/index.html" />
+        <option value="$PROJECT_DIR$/projects/first-app/routes/recipe-routes.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/server.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/routes/user-routes.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/models/userModel.js" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/services/user-service" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/content/login/login.html" />
+        <option value="$PROJECT_DIR$/projects/first-app/public/controllers/user-controller.js" />
+        <option value="$PROJECT_DIR$/projects/angular-website/app.js" />
+        <option value="$PROJECT_DIR$/projects/angular-website/services/HTTPService.js" />
+        <option value="$PROJECT_DIR$/projects/angular-website/content/controllers/main-controller.js" />
+        <option value="$PROJECT_DIR$/projects/angular-website/content/current.html" />
+        <option value="$PROJECT_DIR$/projects/angular-website/content/7-day.html" />
+        <option value="$PROJECT_DIR$/projects/angular-website/content/controllers/week-controller.js" />
+        <option value="$PROJECT_DIR$/projects/angular-website/content/controllers/hourly-controller.js" />
+        <option value="$PROJECT_DIR$/projects/angular-website/content/hourly.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -191,16 +239,20 @@
     <handled-path value="$PROJECT_DIR$/exercises/middleware/node_modules" />
     <handled-path value="$PROJECT_DIR$/exercises/node-calc/node_modules" />
     <handled-path value="$PROJECT_DIR$/exercises/string-manipulation/node_modules" />
+    <handled-path value="$PROJECT_DIR$/exercises/vote/node_modules" />
     <handled-path value="$PROJECT_DIR$/practice/server/node_modules" />
     <handled-path value="$PROJECT_DIR$/projects/bounty-hunter/node_modules" />
+    <handled-path value="$PROJECT_DIR$/projects/brony/node_modules" />
+    <handled-path value="$PROJECT_DIR$/projects/first-app/node_modules" />
     <handled-path value="$PROJECT_DIR$/projects/rpg/node_modules" />
     <handled-path value="$PROJECT_DIR$/warmups/look-it-up/node_modules" />
+    <handled-path value="$PROJECT_DIR$/warmups/server-memory/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="740" />
-    <option name="y" value="-994" />
+    <option name="x" value="108" />
+    <option name="y" value="-964" />
     <option name="width" value="1144" />
-    <option name="height" value="667" />
+    <option name="height" value="672" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -217,8 +269,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,7 +309,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bounty-hunter" />
+              <option name="myItemId" value="angular-website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,11 +327,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bounty-hunter" />
+              <option name="myItemId" value="angular-website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,20 +349,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bounty-hunter" />
+              <option name="myItemId" value="angular-website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,16 +397,18 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.9.4/bin/node" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/warmups/palindrome/palindrome.js" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.4" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/exercises/vote/public/photos" />
-      <recent name="$PROJECT_DIR$/exercises/vote/public" />
-      <recent name="$PROJECT_DIR$/exercises/vote/controllers" />
-      <recent name="$PROJECT_DIR$/projects/bounty-hunter/public" />
-      <recent name="$PROJECT_DIR$/projects/bounty-hunter" />
+      <recent name="$PROJECT_DIR$/projects/first-app/public/content/login" />
+      <recent name="$PROJECT_DIR$/projects/first-app/public/content/home" />
+      <recent name="$PROJECT_DIR$/projects/first-app/public" />
+      <recent name="$PROJECT_DIR$/projects/first-app" />
+      <recent name="$PROJECT_DIR$/projects/first-app/models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/projects/brony" />
@@ -402,6 +478,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="70e3c5c9-d7b9-4ea5-8bc8-6531a9f61fe6" name="Default" comment="" />
@@ -421,24 +500,37 @@
       <workItem from="1487793672437" duration="5602000" />
       <workItem from="1487799408419" duration="7892000" />
       <workItem from="1487866301673" duration="2077000" />
-      <workItem from="1487868403641" duration="16295000" />
+      <workItem from="1487868403641" duration="22851000" />
+      <workItem from="1487952341837" duration="19089000" />
+      <workItem from="1488044762098" duration="11774000" />
+      <workItem from="1488298599944" duration="61620000" />
+      <workItem from="1488497447928" duration="1048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74949000" />
+    <option name="totallyTimeSpent" value="175036000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="740" y="-994" width="1144" height="667" extended-state="0" />
+    <frame x="108" y="-964" width="1144" height="672" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21371327" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.504158" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32869565" sideWeight="0.495842" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24933214" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32586208" sideWeight="0.495842" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -449,24 +541,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.504158" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32869565" sideWeight="0.495842" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21371327" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -475,346 +549,366 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/warmups/Fizz-Buzz/app.js" />
-    <entry file="file://$PROJECT_DIR$/warmups/Fizz-Buzz/index.html" />
-    <entry file="file://$PROJECT_DIR$/warmups/fix-teen/teen.js">
+    <entry file="file://$PROJECT_DIR$/exercises/vote/models/vote-models.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="268">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warmups/forception/forception.js">
+    <entry file="file://$PROJECT_DIR$/exercises/vote/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="345">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warmups/money/money.js">
+    <entry file="file://$PROJECT_DIR$/exercises/vote/routes/vote-routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warmups/no-duplicates/no-duplicates.js">
+    <entry file="file://$PROJECT_DIR$/exercises/vote/public/controllers/main-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="465">
+          <caret line="31" column="47" lean-forward="false" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/exercises/vote/public/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="168" lean-forward="true" selection-start-line="0" selection-start-column="168" selection-end-line="0" selection-end-column="168" />
+        <state relative-caret-position="238">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/README.md">
+    <entry file="file://$PROJECT_DIR$/exercises/vote/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="139">
+          <caret line="58" column="58" lean-forward="true" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/ugly/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/warmups/palindrome/palindrome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/high-score/index.html" />
-    <entry file="file://$PROJECT_DIR$/warmups/new-array/new-array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/- (1).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/warmups/trees/trees.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/angular-website/services/location.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/angular-website/content/controllers/hourly-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/angular-website/content/controllers/main-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/brony/main/brony.css" />
-    <entry file="file://$PROJECT_DIR$/projects/brony/main/index.html" />
-    <entry file="file://$PROJECT_DIR$/projects/angular-website/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/brony/main/app.js" />
-    <entry file="file://$PROJECT_DIR$/projects/angular-website/content/7-day.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/moms shopping list/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/angular-to-do/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="32" column="53" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="32" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/brony/content/pony-page/pony.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/brony/content/pony-page/pony.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/brony/content/services/pony-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/brony/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/brony/brony.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="-161">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/brony/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/brony/content/pages/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/brony/content/controllers/home-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <caret line="1" column="92" lean-forward="false" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/brony/content/controllers/pony-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/brony/content/pages/pony.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/brony/app.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/brony/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/brony/content/home.html">
+    <entry file="file://$PROJECT_DIR$/projects/brony/content/services/pony-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="100" lean-forward="true" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
+        <state relative-caret-position="105">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warmups/stocks/stocks.js">
+    <entry file="file://$PROJECT_DIR$/warmups/server-memory/routes/persons-routes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/directives/navbar.js" />
+    <entry file="file://$PROJECT_DIR$/warmups/server-memory/models/cars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warmups/server-memory/routes/cars-routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warmups/server-memory/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <marker date="1488324554000" expanded="true" signature="322:389" ph="{...}" />
+            <marker date="1488324554000" expanded="true" signature="532:586" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/package.json">
+    <entry file="file://$PROJECT_DIR$/projects/first-app/models/recipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/directives/navbar.html" />
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/content/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/controllers/main-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/content/home/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/routes/beverage-routes.js" />
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/content/login/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/routes/recipe-routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="41" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/public/services/bounty-service.js">
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="585">
+          <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/routes/target-routes.js">
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/services/http-service">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/models/targets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/public/bounty.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/vote/routes/vote-routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/vote/public/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/vote/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/vote/public/content/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/vote/public/photos/nasa-43979.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/angular-website/weather.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/public/controller/bounty-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/vote/models/vote-models.js">
+    <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-195">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/vote/public/services/main-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/vote/public/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/routes/target-routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/vote/public/controllers/main-controller.js">
+    <entry file="file://$PROJECT_DIR$/projects/bounty-hunter/public/services/bounty-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/models/userModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/routes/user-routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/services/user-service">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/controllers/user-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/vote/public/vote.css">
+    <entry file="file://$PROJECT_DIR$/projects/first-app/public/content/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/angular-website/services/HTTPService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/angular-website/content/controllers/main-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/angular-website/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/angular-website/content/current.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/angular-website/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/angular-website/content/7-day.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="71" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/angular-website/content/controllers/week-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/angular-website/content/controllers/hourly-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/angular-website/content/hourly.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>

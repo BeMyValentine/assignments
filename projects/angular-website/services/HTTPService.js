@@ -11,11 +11,8 @@ angular.module("weatherApp")
             return geolocation.getLocation().then(function (data) {
                 var coords = data.coords.latitude + "," + data.coords.longitude;
                 var totalUrl = url + coords;
-                
 
                 return $http.jsonp($sce.trustAsResourceUrl(totalUrl));
-                
-
 
             });
         }

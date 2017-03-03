@@ -4,8 +4,6 @@ angular.module("weatherApp")
         HTTPService.getRequest().then(function (response) {
 
 
-
-
             $scope.whatever = response.data;
             console.log($scope.whatever);
             $scope.currently = response.data.currently;
@@ -14,13 +12,8 @@ angular.module("weatherApp")
             $scope.weatherUpdate = function () {
                 HTTPService.getRequest().then(function (response) {
 
-
-
                     $scope.whatever = response.data;
-                    console.log($scope.whatever);
                     $scope.currently = response.data.currently;
-                    console.log($scope.currently);
-                    $scope.currently.icon = iconUrl;
 
 
                 })

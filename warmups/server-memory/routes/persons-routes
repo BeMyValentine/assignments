@@ -1,0 +1,42 @@
+var express = require("express");
+var Person = require("../models/person");
+var personRoutes = express.Router();
+
+
+personRoutes.get("/", function (req, res) {
+
+    Person.find( function (err, persons) {
+        if (err) return res.status(500).send(err);
+        res.send(persons);
+    });
+
+});
+
+personRoutes.get("/:personsId", function (res, req) {
+
+    Person.findById(req.params.personsId, function (err, person) {
+        if (err) return res.status(500).send(err);
+        res.send(person);
+    });
+
+});
+
+personRoutes.post("/", function (res, req) {
+    var person = new Person(req.body);
+
+    person.save(req.params);
+    if (err) return res.status(500).send(err);
+    res.send(person);
+});
+
+personRoutes.put("/:personsId", function (err, res) {
+    Person.findByIdAndUpdate(req.params.personsId, {new: true}, function (err, person){
+        if (err) return res.status(500).send(err);
+        res.send(person);
+    });
+
+});
+
+
+module.exports = personRoutes;
+

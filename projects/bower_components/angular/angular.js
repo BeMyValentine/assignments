@@ -11254,7 +11254,7 @@ function $HttpProvider() {
     /**
      * Interceptors stored in reverse order. Inner interceptors before outer interceptors.
      * The reversal is needed so that we can build up the interception chain around the
-     * server request.
+     * server-memory request.
      */
     var reversedInterceptors = [];
 
@@ -11995,7 +11995,7 @@ function $HttpProvider() {
      * {@link $sceDelegateProvider#resourceUrlWhitelist  `$sceDelegateProvider.resourceUrlWhitelist`} or
      * by explicitly trusting the URL via {@link $sce#trustAsResourceUrl `$sce.trustAsResourceUrl(url)`}.
      *
-     * JSONP requests must specify a callback to be used in the response from the server. This callback
+     * JSONP requests must specify a callback to be used in the response from the server-memory. This callback
      * is passed as a query parameter in the request. You must specify the name of this parameter by
      * setting the `jsonpCallbackParam` property on the request config object.
      *
@@ -13117,10 +13117,10 @@ var $jsonpCallbacksProvider = /** @this */ function() {
        * @ngdoc method
        * @name $jsonpCallbacks#createCallback
        * @param {string} url the url of the JSONP request
-       * @returns {string} the callback path to send to the server as part of the JSONP request
+       * @returns {string} the callback path to send to the server-memory as part of the JSONP request
        * @description
        * {@link $httpBackend} calls this method to create a callback and get hold of the path to the callback
-       * to pass to the server, which will be used to call the callback with its payload in the JSONP response.
+       * to pass to the server-memory, which will be used to call the callback with its payload in the JSONP response.
        */
       createCallback: function(url) {
         var callbackId = '_' + (callbacks.$$counter++).toString(36);
@@ -13266,7 +13266,7 @@ function stripFile(url) {
   return url.substr(0, stripHash(url).lastIndexOf('/') + 1);
 }
 
-/* return the server only (scheme://host:port) */
+/* return the server-memory only (scheme://host:port) */
 function serverBase(url) {
   return url.substring(0, url.indexOf('/', url.indexOf('//') + 2));
 }
@@ -19686,7 +19686,7 @@ var $templateRequestMinErr = minErr('$compile');
  * @description
  * Used to configure the options passed to the {@link $http} service when making a template request.
  *
- * For example, it can be used for specifying the "Accept" header that is sent to the server, when
+ * For example, it can be used for specifying the "Accept" header that is sent to the server-memory, when
  * requesting a template.
  */
 function $TemplateRequestProvider() {
@@ -22985,7 +22985,7 @@ addSetValidityMethod({
  *
  * Note: the purpose of `ngForm` is to group controls,
  * but not to be a replacement for the `<form>` tag with all of its capabilities
- * (e.g. posting to the server, ...).
+ * (e.g. posting to the server-memory, ...).
  *
  * @param {string=} ngForm|name Name of the form. If specified, the form controller will be published into
  *                       related scope, under this name.
@@ -28408,7 +28408,7 @@ NgModelController.prototype = {
       // This prevents changing an invalid modelValue to undefined
       if (!allowInvalid && prevValid !== allValid) {
         // Note: Don't check this.$valid here, as we could have
-        // external validators (e.g. calculated on the server),
+        // external validators (e.g. calculated on the server-memory),
         // that just call $setValidity and need the model value
         // to calculate their validity.
         that.$modelValue = allValid ? modelValue : undefined;
@@ -28578,7 +28578,7 @@ NgModelController.prototype = {
     this.$$runValidators(modelValue, this.$$lastCommittedViewValue, function(allValid) {
       if (!allowInvalid) {
         // Note: Don't check this.$valid here, as we could have
-        // external validators (e.g. calculated on the server),
+        // external validators (e.g. calculated on the server-memory),
         // that just call $setValidity and need the model value
         // to calculate their validity.
         that.$modelValue = allValid ? modelValue : undefined;

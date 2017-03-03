@@ -11,8 +11,12 @@ angular.module("weatherApp", ["ngRoute", "geolocation", "angular-skycons"])
                 templateUrl: "content/7-day.html",
                 controller: "weatherController"
             })
+            .when("/hourly", {
+                templateUrl: "content/hourly.html",
+                controller: "hourlyController"
+            })
             .otherwise({
-            redirectTo: "/home",
+            redirectTo: "/home"
         })
 
 
