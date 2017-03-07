@@ -9,7 +9,6 @@ h1{
     margin: 50px;
 }
 
-
 main{
     margin: 40px;
 
@@ -38,4 +37,10 @@ img{
 #name{
     font-size: 30px;
     text-align: center;
+}
+
+body {
+    margin:0;
+    padding:0;
+    height:100%;
 }

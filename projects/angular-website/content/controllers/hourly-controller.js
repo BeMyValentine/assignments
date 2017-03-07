@@ -7,4 +7,6 @@ angular.module("weatherApp")
             $scope.day = weather;
         })
 
+
+
     }]);

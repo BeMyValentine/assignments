@@ -3,8 +3,8 @@
 
 <div ng-repeat="hours in day">
 
-    {{ hours.icon }}
-    {{ hours.temperature | number: 0 }}
-    {{ hours.precipProbability | number: 0 }}
+    {{ hours.icon | limitTo : 12 : hours }}
+    {{ hours.temperature | number: 0 | limitTo : 12 : hours }}
+    {{ hours.precipProbability | number: 0 | limitTo : 12 : hours }}
 
 </div>
