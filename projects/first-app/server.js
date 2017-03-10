@@ -5,6 +5,7 @@ var bodyParser = require ("body-parser");
 var morgan = require ("morgan");
 var port = process.env.PORT || 8000;
 var path = require("path");
+var expressJwt = require("express-jwt");
 
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -15,6 +16,7 @@ app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use("/recipe", require("./routes/recipe-routes"));
 app.use("/user", require("./routes/user-routes"));
+app.use("/auth", require("./routes/auth-routes"));
 
 
 

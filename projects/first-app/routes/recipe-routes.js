@@ -22,40 +22,39 @@ recipeRoute.get("/random", function (req, res) {
             res.send(data.recipes[randomIndex])
 
     }});
-    // Use the `request` package to get a list of results from food2fork on page `randomPage`
-    // choose a random result from the 30 that come back by indexing into the array at index `randomIndex`
-    // return that random result
+
 });
-//
-// recipeRoute.get("/:id", function (req, res) {
-//     Recipe.findById(req.params.id, function (err, recipe) {
-//         if (err) return res.send(500).status;
-//         res.send(recipe);
-//     });
-// });
-//
-// recipeRoute.post("/", function (req, res) {
-//     var recipe = new Recipe (req.body);
-//
-//     recipe.save(function (err, recipe) {
-//         if (err) return res.send(500).status;
-//         res.send(recipe);
-//     });
-// });
-//
-// recipeRoute.put("/:id", function (req, res) {
-//     Recipe.findByIdAndUpdate(req.params.id, req.body, {new: true}, function (err, update) {
-//         if (err) return res.send(500).status;
-//         res.send(update);
-//     })
-// });
-//
-// recipeRoute.delete("/:id", function (req, res) {
-//     Recipe.findByIdAndRemove(req.params.id, function (err, recipe) {
-//         if (err) return res.send(500).status;
-//         res.send(recipe);
-//     })
-// });
+
+recipeRoute.route("/")
+    .get(function (req, res) {
+        Recipe.find(function (err, recipe) {
+            if (err) res.status(500).send(err);
+            res.send(recipe);
+        });
+    })
+    .post(function(req, res) {
+        var recipe = new Recipe(req.body);
+        recipe.save(function (err, newRecipe) {
+            if (err) res.status(500).send(err);
+            res.status(201).send(newRecipe);
+        })
+    });
+
+recipeRoute.route("/:recipeId")
+    .get(function (req, res) {
+        Recipe.findById(req.params.recipeId, function (err, todo) {
+            if (err) res. status (500).send(err);
+            if (!todo) res.status(404).send("No recipe found.");
+            else res.send(todo);
+        });
+    })
+    .put(function (req, res) {
+        Recipe.findByIdAndUpdate(req.params.recipeId, req.body, {new: true}, function (err, recipe) {
+            if (err) res.status(500).send(err);
+            res.send(recipe);
+        })
+    });
+
 
 
 module.exports = recipeRoute;
